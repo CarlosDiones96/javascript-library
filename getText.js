@@ -1,7 +1,7 @@
 /**
  * Issue an HTTP request for the contents of the specified URL.
  * When the response arrives successfully, verify that it is plain text
- * and if so, pass it to the specified callback function
+ * and if so, pass it to the specified callback function.
  */
 export function getText(url, callback){
     const request = new XMLHttpRequest();
